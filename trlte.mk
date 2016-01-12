@@ -261,3 +261,8 @@ PRODUCT_PACKAGES += \
     libcnefeatureconfig \
     libril_shim \
     librmt_shim
+
+
+# Add ZION959 kernel config file
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/init.zion959.kernel.sh:system/etc/init.zion959.kernel
