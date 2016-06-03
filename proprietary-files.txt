@@ -288,6 +288,8 @@ vendor/lib/libthermalioctl.so
 # DRM
 bin/qseecomd
 lib/libdrmdecrypt.so
+lib/libdrmframework.so
+lib/libdrmframework_jni.so
 lib/drm/libdrmwvmplugin.so
 lib/drm/libfwdlockengine.so
 lib/drm/libomaplugin.so
@@ -300,7 +302,11 @@ vendor/lib/libssd.so
 vendor/lib/libWVStreamControlAPI_L1.so
 vendor/lib/libwvm.so
 vendor/lib/libwvdrm_L1.so
+vendor/lib/mediadrm/libdrmclearkeyplugin.so
 vendor/lib/mediadrm/libwvdrmengine.so
+
+# GPS
+vendor/lib/libalarmservice_jni.so
 
 # Fingerprint
 bin/vcsFPService
@@ -379,6 +385,7 @@ vendor/lib/libmm-abl-oem.so
 
 # Qualcomm
 vendor/lib/libxml.so
+lib/libxml2.so
 
 # Sensors
 lib/hw/sensors.apq8084.so
