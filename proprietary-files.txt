@@ -305,9 +305,6 @@ vendor/lib/libwvdrm_L1.so
 vendor/lib/mediadrm/libdrmclearkeyplugin.so
 vendor/lib/mediadrm/libwvdrmengine.so
 
-# GPS
-vendor/lib/libalarmservice_jni.so
-
 # Fingerprint
 bin/vcsFPService
 lib/libfpasmtztransport.so
@@ -315,6 +312,21 @@ lib/libvalAuth.so
 lib/libvcsfp.so
 lib/libvfmClient.so
 lib/libvfmtztransport.so
+
+# GPS
+bin/loc_launcher
+lib/hw/gps.default.so
+lib/libgps.utils.so
+lib/libloc_api_v02.so
+lib/libloc_eng.so
+lib/libloc_core.so
+vendor/lib/hw/flp.default.so
+vendor/lib/libalarmservice_jni.so
+vendor/lib/libgeofence.so
+vendor/lib/libizat_core.so
+vendor/lib/liblbs_core.so
+vendor/lib/liblocationservice.so
+vendor/lib/libulp2.so
 
 # Graphics
 vendor/lib/egl/eglSubDriverAndroid.so
