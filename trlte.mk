@@ -103,6 +103,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf
 
+#Bluetooth
+PRODUCT_PACKAGES += \
+    bt_stack.conf \
+    bt_did.conf \
+    auto_pair_devlist.conf \
+    iot_devlist.conf
+
 # Camera
 PRODUCT_PACKAGES += \
     libxml2 \
