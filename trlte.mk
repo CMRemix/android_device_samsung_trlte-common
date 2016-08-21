@@ -265,6 +265,18 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
     frameworks/native/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml
 
+# WiFi calling
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.data.iwlan.enable=true \
+    persist.radio.ignore_ims_wlan=1 \
+    persist.radio.data_con_rprt=1
+
+# tcmiface for tcm support
+PRODUCT_PACKAGES += tcmiface
+
+PRODUCT_BOOT_JARS += \
+    tcmiface
+
 # use prebuilt
 PRODUCT_PACKAGES += \
     libstlport
