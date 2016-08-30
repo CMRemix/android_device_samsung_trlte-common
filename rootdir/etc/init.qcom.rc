@@ -405,6 +405,12 @@ on boot
     write /sys/module/msm_thermal/parameters/limit_temp_degC 80
     write /sys/module/msm_thermal/parameters/core_limit_temp_degC 85
 
+    # Vibrations
+    chown system system /sys/devices/virtual/timed_output/vibrator/enable
+    chown system system /sys/devices/virtual/timed_output/vibrator/intensity
+    # Default to 90% vibrator strength
+    write /sys/devices/virtual/timed_output/vibrator/intensity 9000
+
     # CPU Sets
 
     write /dev/cpuset/foreground/cpus 0-3
