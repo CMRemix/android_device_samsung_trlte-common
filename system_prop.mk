@@ -93,3 +93,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Burn-in protection
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.systemui.burn_in_protection=true
+
+# Device
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.product.model=Note 4
