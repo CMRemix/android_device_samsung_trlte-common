@@ -21,8 +21,11 @@
 # Architecture
 TARGET_CPU_VARIANT := krait
 
+# CMRemix optimization
+CLANG_VERSION := 5.0
 GRAPHITE_OPTS := true
 STRICT_ALIASING := true
+DISABLE_DTC_OPTS := true
 
 # Audio
 BOARD_USES_ALSA_AUDIO := true
