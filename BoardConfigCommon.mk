@@ -21,7 +21,8 @@
 # Architecture
 TARGET_CPU_VARIANT := krait
 
-SDCLANG := true
+GRAPHITE_OPTS := true
+STRICT_ALIASING := true
 
 # Audio
 BOARD_USES_ALSA_AUDIO := true
