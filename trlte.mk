@@ -247,11 +247,6 @@ PRODUCT_PACKAGES += \
     librmt_shim \
     libqcopt_shim
 
-# TimeKeep
-PRODUCT_PACKAGES += \
-    timekeep \
-    TimeKeep
-
 # WiFi packages
 PRODUCT_PACKAGES += \
     libnetcmdiface \
